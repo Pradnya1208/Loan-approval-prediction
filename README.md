@@ -14,7 +14,9 @@
 </div>
 
 # <div align="center">Loan Approval Prediction</div>
-<div align="center"></div>
+<div align="center">
+<img src = "https://github.com/Pradnya1208/Loan-approval-prediction/blob/main/output/loan-approved.png?raw=true>
+</div>
 
 
 Loan Prediction ia a very common in real-life problem that each retail bank faces atleast once in its lifetime. I done Correctly, it can save a lot of man hours at the end of a retail bank.
