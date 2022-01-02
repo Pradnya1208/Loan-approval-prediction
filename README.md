@@ -114,7 +114,7 @@ For optimization we are using Cross Validation and Hyper Parameter Tuning.
  'XGBClassifier': [0.7614087443344408, 0.025850559057545144]}
 ```
 
-#### Hyperparameter Tuning:
+#### Results after Hyperparameter Tuning:
 ![aftertuning](https://github.com/Pradnya1208/Loan-approval-prediction/blob/main/output/aftertuning.PNG?raw=true)
 
 
