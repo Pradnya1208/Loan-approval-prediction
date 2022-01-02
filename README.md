@@ -76,3 +76,72 @@ train["LoanAmount_log"] = np.log(train["LoanAmount"])
 test_data["LoanAmount_log"] = np.log(test_data["LoanAmount"])
 ```
 ![transformed](https://github.com/Pradnya1208/Loan-approval-prediction/blob/main/output/transformed.PNG?raw=true)
+
+
+## Model Training and Evaluation:
+### Feature Importances:
+![importance](https://github.com/Pradnya1208/Loan-approval-prediction/blob/main/output/feature%20importance.PNG?raw=true)
+
+### Results of various models:
+![models](https://github.com/Pradnya1208/Loan-approval-prediction/blob/main/output/models.PNG?raw=true)
+
+![ROC](https://github.com/Pradnya1208/Loan-approval-prediction/blob/main/output/roc.PNG?raw=true)
+
+
+## Optimizations:
+For optimization we are using Cross Validation and Hyper Parameter Tuning.
+#### Results after cross validation:
+- Accuracy:
+```
+{'LogisticRegression': [0.7377049180327868, 0.04056751358116207],
+ 'KNeighborsClassifier': [0.6140077302412368, 0.016665887272068795],
+ 'GaussianNB': [0.783406637345062, 0.023724757270509555],
+ 'DecisionTreeClassifier': [0.693815807010529, 0.01954930344811238],
+ 'RandomForestClassifier': [0.7882980141276823, 0.019662051295215595],
+ 'AdaBoostClassifier': [0.7866186858589896, 0.02231507202012775],
+ 'GradientBoostingClassifier': [0.7720111955217913, 0.030242126729569573],
+ 'XGBClassifier': [0.7589497534319605, 0.01834053196492521]}
+ ```
+ - roc_auc:
+```
+{'LogisticRegression': [0.7613108752272838, 0.0572604451135635],
+ 'KNeighborsClassifier': [0.5091802186461629, 0.025701960476993368],
+ 'GaussianNB': [0.7545628021789013, 0.025945127116381292],
+ 'DecisionTreeClassifier': [0.6466124020458385, 0.031276977676230555],
+ 'RandomForestClassifier': [0.759339761545644, 0.03629165276048184],
+ 'AdaBoostClassifier': [0.7278719044972914, 0.04367138332205218],
+ 'GradientBoostingClassifier': [0.7357179335971906, 0.04536974947781717],
+ 'XGBClassifier': [0.7614087443344408, 0.025850559057545144]}
+```
+
+#### Hyperparameter Tuning:
+![aftertuning](https://github.com/Pradnya1208/Loan-approval-prediction/blob/main/output/aftertuning.PNG?raw=true)
+
+
+### Lessons Learned
+`Data Imputation`
+`Cross Validation`
+`Hyperparameter Tuning`
+
+
+
+### Feedback
+
+If you have any feedback, please reach out at pradnyapatil671@gmail.com
+
+
+### 🚀 About Me
+#### Hi, I'm Pradnya! 👋
+I am an AI Enthusiast and  Data science & ML practitioner
+
+[1]: https://github.com/Pradnya1208
+[2]: https://www.linkedin.com/in/pradnya-patil-b049161ba/
+[3]: https://public.tableau.com/app/profile/pradnya.patil3254#!/
+[4]: https://twitter.com/Pradnya1208
+
+
+[![github](https://raw.githubusercontent.com/Pradnya1208/Telecom-Customer-Churn-prediction/c292abd3f9cc647a7edc0061193f1523e9c05e1f/icons/git.svg)][1]
+[![linkedin](https://raw.githubusercontent.com/Pradnya1208/Telecom-Customer-Churn-prediction/9f5c4a255972275ced549ea6e34ef35019166944/icons/iconmonstr-linkedin-5.svg)][2]
+[![tableau](https://raw.githubusercontent.com/Pradnya1208/Telecom-Customer-Churn-prediction/e257c5d6cf02f13072429935b0828525c601414f/icons/icons8-tableau-software%20(1).svg)][3]
+[![twitter](https://raw.githubusercontent.com/Pradnya1208/Telecom-Customer-Churn-prediction/c9f9c5dc4e24eff0143b3056708d24650cbccdde/icons/iconmonstr-twitter-5.svg)][4]
+
