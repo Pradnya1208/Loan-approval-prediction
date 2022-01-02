@@ -47,6 +47,9 @@ Company wants to automate the loan eligibility process (real time) based on cust
 ## Understanding the data:
 #### Loan approval status:
 ![Loan status](https://github.com/Pradnya1208/Loan-approval-prediction/blob/main/output/loan_status.PNG?raw=true)
+#### Numerical Variables:
+![Numerical](https://github.com/Pradnya1208/Loan-approval-prediction/blob/main/output/numerical.PNG?raw=true)
+
 
 #### Categorical Variables:
 ![categorical](https://github.com/Pradnya1208/Loan-approval-prediction/blob/main/output/categorical.PNG?raw=true)
@@ -54,8 +57,6 @@ Company wants to automate the loan eligibility process (real time) based on cust
 #### Ordinal Variables:
 ![ordinal](https://github.com/Pradnya1208/Loan-approval-prediction/blob/main/output/ordinal.PNG?raw=true)
 
-#### Numerical Variables:
-![Numerical](https://github.com/Pradnya1208/Loan-approval-prediction/blob/main/output/numerical.PNG?raw=true)
 
 
 ### Misiing value imputation:
