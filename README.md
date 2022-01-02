@@ -15,7 +15,7 @@
 
 # <div align="center">Loan Approval Prediction</div>
 <div align="center">
-<img src = "https://github.com/Pradnya1208/Loan-approval-prediction/blob/main/output/loan-approved.png?raw=true>
+<img src = "https://github.com/Pradnya1208/Loan-approval-prediction/blob/main/output/loan-approved.png?raw=true">
 </div>
 
 
