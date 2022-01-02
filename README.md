@@ -54,10 +54,7 @@ Company wants to automate the loan eligibility process (real time) based on cust
 
 
 #### Categorical Variables:
-![categorical](https://github.com/Pradnya1208/Loan-approval-prediction/blob/main/output/categorical.PNG?raw=true)
-
-#### Ordinal Variables:
-![ordinal](https://github.com/Pradnya1208/Loan-approval-prediction/blob/main/output/ordinal.PNG?raw=true)
+<img src = "https://github.com/Pradnya1208/Loan-approval-prediction/blob/main/output/categorical.PNG?raw=true" width ="70%">
 
 
 
